@@ -17,8 +17,34 @@
 // }
 
 /////////Square the Numbers////////////
-function squareTheNumbers(num){
-    return num.map(function(squ){
-        return squ ** 2
+// function squareTheNumbers(num){
+//     return num.map(function(squ){
+//         return squ ** 2
+//     })
+// }
+
+//////////Cities ///////////
+// function coldCity(city){
+//     return city
+//         .filter((area) => {
+//             return area.temperature < 70.0
+//         })
+//         .map((name) => {
+//             return name.name
+//         })
+// }
+
+/////////// Good Job ///////////
+// function goodJob(people){
+//     people = people.map((name) => {
+//         return "Good Job, " + name
+//     })
+
+// }
+
+//////// Product ///////
+function productOf(num){
+    return num.reduce((product, value) => {
+        return product * value
     })
 }
