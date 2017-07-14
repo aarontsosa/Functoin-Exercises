@@ -24,15 +24,15 @@
 // }
 
 //////////Cities ///////////
-// function coldCity(city){
-//     return city
-//         .filter((area) => {
-//             return area.temperature < 70.0
-//         })
-//         .map((name) => {
-//             return name.name
-//         })
-// }
+function coldCity(city){
+    return city
+        .filter((area) => {
+            return area.temperature < 70.0
+        })
+        .map((name) => {
+            return name.name
+        })
+}
 
 /////////// Good Job ///////////
 // function goodJob(people){
@@ -43,8 +43,76 @@
 // }
 
 //////// Product ///////
-function productOf(num){
-    return num.reduce((product, value) => {
-        return product * value
-    })
-}
+// function productOf(num){
+//     return num.reduce((product, value) => {
+//         return product * value
+//     })
+// }
+
+////////// Total Price ////////////
+// function total(num){
+//     return num
+//         .map((nums) => {
+//             return nums.price
+//         })
+//         .reduce((item, value) => {
+//             return item + value
+//     })
+// }
+
+//////// String Joining without using join()/////////
+// function strJoin(str, space){
+//     return str.reduce((string, value) => {
+//         return string + space + value
+//     })
+// }
+
+///////////////// Acronym ///////////
+// function acronym(word){
+//     return word
+//         .map((words) => {
+//             words = words.split("")
+//             return words[0].toUpperCase()
+//         })
+//         .reduce((letter, value) => {
+//             return letter + value
+//         })
+// }
+
+//////////////// String Multiply ///////////
+// function range(min, max) {
+//   var arr = [];
+//   for (var i = min; i < max; i++) {
+//     arr.push(i);
+//   }
+//   return arr;
+// }
+// function strMultiply(str, times){
+//     times = range(0, times)
+//     return times
+//         .map((loop) => {
+//             return str
+//         })
+//         .reduce((letter, value) => {
+//             return letter + value
+//         })
+// }
+
+////////////Sort an Array///////
+// function sortAlphabetical(str){
+//     return str.sort()
+// }
+// function sortLength(string){
+//     return string
+//         .map((str) =>{
+//             return { index: str, length: str.length }
+//         })
+//         .sort((a,b) => {
+//             return a.length - b.length;
+//         })
+//         .map((length) => {
+//             return length.index
+//         })
+// }
+
+
