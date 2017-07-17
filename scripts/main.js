@@ -116,31 +116,32 @@ function coldCity(city){
 // }
 
 
-/////////////Caesar Cipher////////////
+/////////////Caesar Cipher//////////// NOT DONE
 
-function cipher(text){
-    var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-    text = text.split("");
-    var i = 0;
-    sorted = alphabet.map((letter) => {
-        i += 1
-        return {letter: letter, number: i}
-    })
-    i = 0
-    // return text
-    //     .map((text) => {
-    //         if (text in sorted){
-    //             return yes
-    //         }
-    //     })
-    //     .map((text) => {
-    //         text += 13
-    //         if(text > 25){
-    //             text -= 25
-    //             return alphabet["text"]
-    //         } else {
-    //             return alphabet["text"]
-    //         }
-        // })
-      return  Object.getPrototypeOf(alphabet."G")
-}
+// function cipher(text){
+//     var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+//     text = text.split("");
+//     var i = 0;
+//     sorted = alphabet.map((letter) => {
+//         i += 1
+//         return {letter: letter, number: i}
+//     })
+//     i = 0
+//     // return text
+//     //     .map((text) => {
+//     //         if (text in sorted){
+//     //             return yes
+//     //         }
+//     //     })
+//     //     .map((text) => {
+//     //         text += 13
+//     //         if(text > 25){
+//     //             text -= 25
+//     //             return alphabet["text"]
+//     //         } else {
+//     //             return alphabet["text"]
+//     //         }
+//         // })
+//       return  Object.getPrototypeOf(alphabet."G")
+// }
+
